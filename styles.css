@@ -1,0 +1,158 @@
+body {
+    background-color: #f1eeee;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    list-style: none;
+    color: #5a5a5a;
+}
+
+#square {
+    border: #4153f1 2px solid;
+    padding: 0 50px;
+    border-radius: 10px;
+    height: 90vh;
+    margin: 20px;
+    box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
+    background-color: white;
+}
+
+.menu {
+    width: 10%;
+    height: 90vh;
+    border: #4153f1 1px solid;
+    float: right;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
+}
+
+.dashboard {
+    width: auto;
+    height: 90vh;
+    border: solid 2px transparent;
+    float: right;
+    padding-left: 50px;
+}
+
+.card {
+    width: 20%;
+    height: 90vh;
+    border: solid 1px #4153f1;
+    float: right;
+    background: #a9b0fa;
+}
+
+.credit-card {
+    width: 150px;
+    height: 98px;
+    border-radius: 12px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvjF247bcvxFfb9-oJKLcUXPOKSflVCDzWsA&usqp=CAU);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    box-shadow: 10px 8px 15px 0px rgb(0 0 0 / 40%);    
+}
+
+.image {
+    padding: 0;
+    margin: 0;
+    border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 1px transparent;
+    width: 45px;
+    height: 45px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
+.image:hover {
+    background: #abb2ee;
+    cursor: pointer;
+}
+
+
+.icon {
+    padding: 0;
+    margin: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon-med {
+    padding: 0;
+    margin: 0;
+    width: 60px;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.prestamo {
+    border-radius: 15px;
+    width: 180px;
+    height: 180px;
+    border: solid 1px #4153f1;
+    border-style: groove;
+    margin-left: 20px;
+    margin-right: 29px;
+    padding: 10px;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    align-content:center;
+    display: inline-block;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.prestamo:hover {
+    box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
+    background: #abb2ee;
+    cursor: pointer;
+}
+
+.estado-cuenta {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.boton {
+    height: 15px;
+    margin-top: 24px;
+    width: 128px;
+    background: transparent;
+    border: solid 1px  #4153f1;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 10px;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    /* padding-top: 34px; */
+    padding: 10px 0;
+}
+
+.boton:hover {
+    box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
+    background: #2185e2;
+    border: solid 1px black;
+    cursor: pointer;
+    font-weight: bold;
+}
+.info-card {
+    font-size: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
