@@ -22,7 +22,7 @@ body {
 .menu {
     width: 10%;
     height: 90vh;
-    border: #4153f1 1px solid;
+    border-right: #4153f1 1px solid;
     float: left;
     border-radius: 5px 0px 0px 5px;
     box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
