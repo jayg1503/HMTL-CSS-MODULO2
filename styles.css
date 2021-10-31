@@ -9,21 +9,22 @@ body {
 }
 
 #square {
-    border: #4153f1 2px solid;
-    padding: 0 50px;
+    border: #4153f1 3px solid;
+    padding: 0;
     border-radius: 10px;
     height: 90vh;
     margin: 20px;
     box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
     background-color: white;
+    width: 88%;
 }
 
 .menu {
     width: 10%;
     height: 90vh;
     border: #4153f1 1px solid;
-    float: right;
-    border-radius: 5px;
+    float: left;
+    border-radius: 5px 0px 0px 5px;
     box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 40%);
 }
 
@@ -37,10 +38,13 @@ body {
 
 .card {
     width: 20%;
-    height: 90vh;
-    border: solid 1px #4153f1;
+    height: 99.8%;
+    border: solid 1px transparent;
     float: right;
     background: #a9b0fa;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 5px;
 }
 
 .credit-card {
